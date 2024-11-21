@@ -6,7 +6,8 @@ Welcome to the Cracking Wi-Fi Using Aircrack-NG series! This repository contains
 
 I have to give credit to Zaid Sabih! I learned all this cool stuff by watching his course on Udemy. I highly recommend it! https://www.udemy.com/course/learn-ethical-hacking-from-scratch/
 
-🚨 Disclaimer
+🚨 Disclaimer:
+
 This project is for educational purposes only. Unauthorized access to networks is illegal and unethical. Always ensure you have explicit permission before testing on any network. Misuse of the information provided in this series may result in severe legal consequences. You are responsible for your own actions.
 
 📂 Project Overview:
