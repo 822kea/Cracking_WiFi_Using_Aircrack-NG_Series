@@ -16,6 +16,7 @@ This series is divided into multiple parts, each focusing on a specific aspect o
 
 Part 1: Setting Up a Monitoring Device and Analyzing Packets
 Enable monitor mode on your device.
+
 Use Airodump-ng to discover nearby networks and clients.
 Capture packets and analyze them with Wireshark.
 
@@ -27,6 +28,9 @@ Part 3: (Coming Soon)
 
 The following tools and technologies are used throughout this series:
 
-Aircrack-ng Suite, Airodump-ng, Airdecap-ng, Aircrack-ng, Wireshark, Linux OS 
+Aircrack-ng Suite
 
+Linux OS (I'm using Linux Mint)
+
+Wireshark
 
