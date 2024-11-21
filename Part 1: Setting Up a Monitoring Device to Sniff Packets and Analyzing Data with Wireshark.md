@@ -89,6 +89,8 @@ The captured data is saved to the file specified in the `--write` argument.
 ### Example Output
 If the network is WPA2-protected (as in this example), the captured packets will be encrypted and not immediately readable. Further steps (covered in future parts) will explain how to decrypt these packets.
 
+
+![Monitor Mode Command](Part1_Images/mm_10.png)
 ---
 
 ## Step 5: Restore Your Device to Managed Mode
