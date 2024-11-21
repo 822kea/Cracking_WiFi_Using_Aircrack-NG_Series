@@ -114,4 +114,4 @@ Your device should now reconnect to the internet as usual.
 ---
 
 ### Next Steps
-This concludes Part 1 of the lab. You’ve successfully set up monitor mode, captured packets, analyzed them in Wireshark, and returned your device to normal operation. In Part 2, we’ll dive into decrypting WPA2 traffic and exploring handshake files.
+This concludes Part 1 of the lab. You’ve successfully set up monitor mode, captured packets, analyzed them in Wireshark, and returned your device to normal operation.
