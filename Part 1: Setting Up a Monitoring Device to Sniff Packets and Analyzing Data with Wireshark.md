@@ -12,6 +12,7 @@ Monitor mode allows your network interface to capture packets without connecting
    ```bash
    sudo ifconfig <interface-name> down
    ```
+![Monitor Mode Command](Part1_Images/mm_1.png)
 
 2. **Kill Interfering Processes**
    Run the following command to stop any processes that might interfere with your work:
@@ -20,12 +21,14 @@ Monitor mode allows your network interface to capture packets without connecting
    ```
    *Note: Your Wi-Fi connection will automatically be disabled.*
 
-3. **Enable Monitor Mode**
+   ![Monitor Mode Command](Part1_Images/mm_2.png)
+
+4. **Enable Monitor Mode**
    ```bash
    sudo iwconfig <interface-name> mode monitor
    ```
 
-4. **Bring the Interface Back Online**
+5. **Bring the Interface Back Online**
    ```bash
    sudo ifconfig <interface-name> up
    ```
