@@ -40,6 +40,8 @@ Use the **Aircrack-ng suite** to scan for Wi-Fi networks in your area:
    ```bash
    sudo airodump-ng <interface-name>
    ```
+   ![Monitor Mode Command](Part1_Images/mm_5.png)
+
 
 ### Understanding the Output
 When scanning, you'll see a list of networks and details about them:
@@ -56,7 +58,9 @@ Identify the network you want to monitor and take note of its **BSSID** and chan
 To target a specific network, run:
    ```bash
    sudo airodump-ng --bssid <BSSID> --channel <channel-number> --write <file-name> <interface-name>
-   ```
+  ```
+   ![Monitor Mode Command](Part1_Images/mm_6.png)
+
 
 ### What You’ll See
 This command captures packets from the target network, including information about connected devices:
