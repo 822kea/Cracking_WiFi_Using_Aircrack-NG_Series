@@ -113,5 +113,6 @@ Your device should now reconnect to the internet as usual.
 
 ---
 
-### Next Steps
-This concludes Lab 1. You’ve successfully set up monitor mode, captured packets, analyzed them in Wireshark, and returned your device to normal operation.
+### Skills and Knowledge Gained
+ - Set up a network monitoring device
+ - Captured and analyzed packets in `Wireshark`
