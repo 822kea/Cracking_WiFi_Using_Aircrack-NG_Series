@@ -10,7 +10,7 @@ Monitor mode allows your network interface to capture packets without connecting
 
 1. **Disable the Network Interface**
    ```bash
-   sudo ifconfig <interface-name> down
+   sudo ifconfig <your-interface-name> down
    ```
 ![Monitor Mode Command](Part1_Images/mm_1.png)
 
@@ -25,12 +25,12 @@ Monitor mode allows your network interface to capture packets without connecting
 
 4. **Enable Monitor Mode**
    ```bash
-   sudo iwconfig <interface-name> mode monitor
+   sudo iwconfig <your-interface-name> mode monitor
    ```
 
 5. **Bring the Interface Back Online**
    ```bash
-   sudo ifconfig <interface-name> up
+   sudo ifconfig <your-interface-name> up
    ```
 
 ---
@@ -38,7 +38,7 @@ Monitor mode allows your network interface to capture packets without connecting
 ## Step 2: Discover Nearby Networks
 Use the **Aircrack-ng suite** to scan for Wi-Fi networks in your area:
    ```bash
-   sudo airodump-ng <interface-name>
+   sudo airodump-ng <your-interface-name>
    ```
    ![Monitor Mode Command](Part1_Images/mm_5.png)
 
@@ -57,7 +57,7 @@ Identify the network you want to monitor and take note of its **BSSID** and chan
 ## Step 3: Capture Network Packets
 To target a specific network, run:
    ```bash
-   sudo airodump-ng --bssid <BSSID> --channel <channel-number> --write <file-name> <interface-name>
+   sudo airodump-ng --bssid <target-BSSID> --channel <target-channel-number> --write <file-name> <your-interface-name>
   ```
    ![Monitor Mode Command](Part1_Images/mm_6.png)
 
@@ -98,9 +98,9 @@ Once you've finished sniffing packets, you’ll need to return your device to ma
 
 1. **Disable Monitor Mode**
    ```bash
-   sudo ifconfig <interface-name> down
-   sudo iwconfig <interface-name> mode managed
-   sudo ifconfig <interface-name> up
+   sudo ifconfig <your-interface-name> down
+   sudo iwconfig <your-interface-name> mode managed
+   sudo ifconfig <your-interface-name> up
    ```
 
 2. **Restart Network Services**
