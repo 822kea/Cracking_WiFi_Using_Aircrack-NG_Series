@@ -14,15 +14,15 @@ This project is for educational purposes only. Unauthorized access to networks i
 
 This series is divided into multiple parts, each focusing on a specific aspect of Wi-Fi network analysis using Aircrack-ng and other tools:
 
-Part 1: Setting Up a Monitoring Device and Analyzing Packets
+Lab 1: Setting Up a Monitoring Device and Analyzing Packets
 Enable monitor mode on your device.
 
 Use Airodump-ng to discover nearby networks and clients.
 Capture packets and analyze them with Wireshark.
 
-Part 2: (Coming Soon)
+Lab 2: (Coming Soon)
 
-Part 3: (Coming Soon)
+More labs coming soon...
 
 🛠️ Tools & Technologies:
 
