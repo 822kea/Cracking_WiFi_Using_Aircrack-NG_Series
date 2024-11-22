@@ -1,7 +1,7 @@
 
-# Part 1: Setting Up a Monitoring Device and Analyzing Packets
+# Lab 1: Setting Up a Monitoring Device and Analyzing Packets
 
-In this guide, we’ll turn your device into a monitoring station, using the Terminal, to capture Wi-Fi traffic and analyze the data using Wireshark. Follow these steps carefully:
+In this first guide, we’ll turn your device into a monitoring station, using the Terminal, to capture Wi-Fi traffic and analyze the data using Wireshark. Follow these steps carefully. They will be implemented throughout the series:
 
 ---
 
@@ -114,4 +114,4 @@ Your device should now reconnect to the internet as usual.
 ---
 
 ### Next Steps
-This concludes Part 1 of the lab. You’ve successfully set up monitor mode, captured packets, analyzed them in Wireshark, and returned your device to normal operation.
+This concludes Lab 1. You’ve successfully set up monitor mode, captured packets, analyzed them in Wireshark, and returned your device to normal operation.
